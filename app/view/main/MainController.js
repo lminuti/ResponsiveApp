@@ -12,7 +12,7 @@ Ext.define('ResponsiveApp.view.main.MainController', {
     showView(xtype) {
         this.getView().removeAll();
         this.getView().setActiveItem({
-            xtype: xtype
+            xtype
         });
     },
 
@@ -30,11 +30,11 @@ Ext.define('ResponsiveApp.view.main.MainController', {
         Ext.theme.Material.setDarkMode(this.darkMode);
     },
 
-    onItemSelected: function (sender, record) {
+    onItemSelected (sender, record) {
         Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
     },
 
-    onConfirm: function (choice) {
+    onConfirm (choice) {
         if (choice === 'yes') {
             //
         }

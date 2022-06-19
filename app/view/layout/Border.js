@@ -1,7 +1,7 @@
 /**
  * This view is an example list of people.
  */
- Ext.define('ResponsiveApp.view.layout.Border', {
+Ext.define('ResponsiveApp.view.layout.Border', {
     extend: 'Ext.Panel',
     xtype: 'border',
 

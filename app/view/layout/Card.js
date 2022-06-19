@@ -1,7 +1,7 @@
 /**
  * This view is an example list of people.
  */
- Ext.define('ResponsiveApp.view.layout.Card', {
+Ext.define('ResponsiveApp.view.layout.Card', {
     extend: 'Ext.Panel',
     xtype: 'cardlayout',
     controller: 'cardlayout',

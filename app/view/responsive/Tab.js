@@ -1,4 +1,4 @@
- Ext.define('ResponsiveApp.view.responsive.Tab', {
+Ext.define('ResponsiveApp.view.responsive.Tab', {
     extend: 'Ext.tab.Panel',
     xtype: 'responsivetab',
 
