@@ -1,0 +1,93 @@
+.resp-el {
+    padding: 50px;
+    font-size: 2rem;
+}
+
+@media (max-width: 200px) {
+
+    .resp-el {
+        background-color: lightyellow;
+    }
+
+    .resp-el::after {
+        content: '200px';
+    }
+
+}
+
+@media (min-width: 200px) {
+
+    .resp-el {
+        background-color: lightpink;
+    }
+
+    .resp-el::after {
+        content: '200px';
+    }
+}
+
+@media (min-width: 400px) {
+
+    .resp-el {
+        background-color: lightcyan;
+    }
+
+    .resp-el::after {
+        content: '400px';
+    }
+}
+
+@media (min-width: 600px) {
+
+    .resp-el {
+        background-color: lightgreen;
+    }
+
+    .resp-el::after {
+        content: '600px';
+    }
+}
+
+@media (min-width: 800px) {
+
+    .resp-el {
+        background-color: lightyellow;
+    }
+
+    .resp-el::after {
+        content: '800px';
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .resp-el {
+        background-color: lightpink;
+    }
+
+    .resp-el::after {
+        content: '1000px';
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .resp-el {
+        background-color: lightcyan;
+    }
+
+    .resp-el::after {
+        content: '1200px';
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .resp-el {
+        background-color: lightgreen;
+    }
+    .resp-el::after {
+        content: '1400px'
+    }
+
+}

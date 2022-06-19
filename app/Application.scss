@@ -1,0 +1,25 @@
+/*
+ *  This file can be used to set variables and supply global styling.  View specific 
+ *  styling should be located the view's corresponding scss file.
+ */
+$enable-font-awesome: dynamic(true);
+$base-color-name: 'indigo';
+
+.info {
+    padding: 5px;
+    background-color: $base-color;
+    color: white;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: $accent-color;
+    color: white;
+    height: 3rem;
+    padding: 10px 5px;
+}
+
+.responsivetest-label {
+    font-size: 2rem;
+}
