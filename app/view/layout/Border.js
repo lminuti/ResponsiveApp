@@ -7,6 +7,8 @@ Ext.define('ResponsiveApp.view.layout.Border', {
 
     mainTitle: 'Border',
 
+    layout: 'fit',
+
     items: [{
         html: 'main'
     },{
